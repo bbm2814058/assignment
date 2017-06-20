@@ -1,0 +1,15 @@
+<script>
+    var str="Hello World";
+    var rev=[];
+    var j=str.length;
+    for(let i=0;i<str.length;i++)
+         {
+             rev[--j]=str[i];
+         }
+    var r=rev.join("");
+    console.log("The Reverse of the string is : "+ r);
+    
+        
+    
+
+</script>>

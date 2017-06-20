@@ -1,0 +1,26 @@
+<script>
+var arr=[ 
+    {city:'Agra',state:'UttarPradesh'},
+    {city:'Faridabad',state:'Haryana'},
+    {city:'West Delhi',state:'Delhi'},
+    {city:'Amritsar',state:'Punjab'},
+    {city:'Nanital',state:'Uttrakhand'},
+    {city:'Agra',state:'UttarPradesh'},
+    {city:'Faridabad',state:'Haryana'}];
+
+    for(let i=0;i<arr.length;i++)
+        {
+    for(let j=i+1;j<arr.length;j++)
+        {
+    //console.log(arr[j].city);
+    if(arr[i].city==arr[j].city&&arr[i].state==arr[j].state)
+        {
+           arr.splice(j--,1);
+        }
+     
+        }}
+    arr.forEach(function(element){
+       console.log(element); 
+    });
+       
+</script>

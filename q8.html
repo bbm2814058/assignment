@@ -1,0 +1,26 @@
+<script>
+    var arr=[1,2,3,3,2,1];
+        var len=arr.length-1;
+    var flag=0;
+    
+    for(let i=0;i<arr.length/2;i++)
+        {
+            if(arr[i]==arr[len--])
+                continue;
+            else 
+                {
+                    console.log("No It's not a pallindrome array");
+                    flag=1;
+                    break;
+                }
+            
+        }
+    
+        if(flag==0)
+            console.log("Yes It's a pallindrome array");
+
+    
+    
+    
+    
+</script>

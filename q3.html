@@ -1,0 +1,26 @@
+<script>
+    var str="javascRipt is a smart LanguAge. but it Requires too much effort.";
+    str=" "+str;
+    var rev=[];
+    var r="";
+    //var j=str.length;
+    
+    for(let i=0;i<str.length;i++)
+         {
+             if(str[i]!=" ")
+                rev[i]=str[i];
+             else
+                 {
+                     rev[i]=str[i];
+                     rev[i+=1]=str[i].toUpperCase();
+                     
+                 }
+         }
+    r=r+rev.join("");
+    console.log("The formated string  is : "+ r);
+  
+        
+    
+    
+
+</script>

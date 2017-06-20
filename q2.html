@@ -1,0 +1,26 @@
+<script>
+    var str="Hello World";
+    str=str+" ";
+    var rev=[];
+    var r="";
+    var j=str.length;
+    
+    for(let i=0;i<str.length;i++)
+         {
+             if(str[i]!=" ")
+                rev[--j]=str[i];
+             else
+                 {
+                     rev[--j]=str[i];
+                     r=r+rev.join("");
+                     rev=[];
+                 }
+         }
+    
+      console.log("The Reverse of the string is : "+ r);
+  
+        
+    
+    
+
+</script>
